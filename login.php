@@ -19,8 +19,6 @@
 
 session_start();
 
-
-
 if (isset($_SESSION['token'])) {
   header("Location: registrados.php");
 }
@@ -229,7 +227,7 @@ if (isset($_SESSION['token'])) {
 <script src="public/sweetalert/sweetalert2.js"></script>
 <script src="public/sweetalert/sweetalert2.all.min.js"></script>
 <script src="js/Validacion_Login.js"></script>
-<script src="js/functions.js"></script>
+<script src="js/Functions.js"></script>
 
 <script>
 

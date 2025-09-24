@@ -1,0 +1,5 @@
+body {
+    background-image: url('../images/torreon.jpg'); /* Imagen de 50px de ancho y alto */
+    background-size: 70%;
+    background-position:top;
+}
